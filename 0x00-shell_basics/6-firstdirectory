@@ -1,0 +1,10 @@
+
+#!/bin/bash
+
+mkdir /temp
+
+rmdir temp
+mkdir /tmp 
+
+cd tmp
+mkdir  my_first_directory
