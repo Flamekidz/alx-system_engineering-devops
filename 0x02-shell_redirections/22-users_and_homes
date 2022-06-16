@@ -1,2 +1,2 @@
 #!/bin/bash
- cut -d : -f 1,6 /etc/passwd | sort 
+tail -n+2 | cut -f1 | sort | uniq -c | sort -nr | rev | cut --delimiter=' ' -f1 | rev | head --lines=11
